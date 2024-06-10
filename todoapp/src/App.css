@@ -100,8 +100,8 @@ h1{
   background-color:rgb(149, 201, 201);
   display:flex;
   justify-content: space-between;
-  padding:9px;
-  height: 65px;
+  padding:15px;
+  height: 100px;
   box-shadow: 1px 3px 4px yellow;
 }
 .todo-list-item h3{
@@ -112,7 +112,7 @@ h1{
 }
 
 .todo-list-item p{
-  font-size: 25px;
+  font-size: 20px;
   color: rgb(31, 92, 31);
   margin-top:10px;
 }
@@ -131,6 +131,11 @@ h1{
 
 .icon:hover{
   transition: all 0.75s;
-  color:darkred;
-  background-color: yellow;
+  color:white;
+  background-color: darkred;
+}
+.check-icon:hover{
+  transition:all 0.75s;
+  color:white;
+  background-color:darkred;
 }
