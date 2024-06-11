@@ -3,3 +3,10 @@
     "react-icons": "^5.2.1"
   }
 }
+
+"scrips": {
+	"predeploy": "npm run build",
+	"deploy": "gh-pages -d build"
+}
+
+
